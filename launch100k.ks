@@ -24,6 +24,10 @@ WHEN STAGE:SOLIDFUEL < 0.001 THEN {
 	print "Solids done".
 	stage.
 	wait 1.
+	IF STAGE:SOLIDFUEL > 0.001 {
+		PRESERVE.
+		print "Next Solid Stage Found".
+		}
 	}
 
 WHEN STAGE:DELTAV:CURRENT < 1 THEN {
