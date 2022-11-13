@@ -1,0 +1,11 @@
+angle calcs utility - collect info about target, get angle of inlines, sugest launch angle (with option to pass to pilot)
+
+Launch autoPilot - Tweekables; Final Ap, inclination to equator, (time of day/ phase)
+
+randesvou and dock/clamp
+
+landing
+
+Rover follow waypoints - with slope warnings
+
+Plane - level flight with alt changing, waypoint tracking (dot product of dir to waypoint with level to get pointing vector)
